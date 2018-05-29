@@ -17,9 +17,9 @@ public class Dao {
     }
 
     public Connection getConnection() {
-        String url = "jdbc:mysql://blizzview.cekqqp5dfngf.eu-west-1.rds.amazonaws.com:3306/" + databaseName;
-        String username = "root";
-        String password = "bviewdb1";
+        String url = "*************" + databaseName;
+        String username = "******";
+        String password = "*******";
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
